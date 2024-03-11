@@ -1,7 +1,7 @@
 #include "Truckloads.h"
 #include <iostream>
 
-int test(void){
+int SamKirkTest1(void){
     Truckloads truck;
     
     int n, l;
