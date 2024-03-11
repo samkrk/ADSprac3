@@ -1,10 +1,10 @@
-#include "Truckloads.h"
+#include "EfficientTruckloads.h"
 
 // constructor
-Truckloads::Truckloads(){}
+EfficientTruckloads::EfficientTruckloads(){}
 
 // recursive function
-int Truckloads::numTrucks(int numCrates, int loadSize){
+int EfficientTruckloads::numTrucks(int numCrates, int loadSize){
     // base case
     if (numCrates <= loadSize){
         return 1;
@@ -13,7 +13,7 @@ int Truckloads::numTrucks(int numCrates, int loadSize){
     return numTrucks(numCrates, loadSize, 1);
 }
 
-int Truckloads::numTrucks(int numCrates, int loadSize, int t){
+int EfficientTruckloads::numTrucks(int numCrates, int loadSize, int t){
     
     // base case 
     if (numCrates <= loadSize){
