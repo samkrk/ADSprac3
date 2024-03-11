@@ -2,7 +2,7 @@
 #include <string>
 #include "Reverser.h"
 
-int test(void){
+int SamKirkTest2(void){
     /* Reverser reverse;
     int value;
     std::cout<< "Enter value: ";
