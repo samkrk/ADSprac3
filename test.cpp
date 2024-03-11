@@ -1,7 +1,7 @@
 #include "Truckloads.h"
 #include <iostream>
 
-int main(void){
+int test(void){
     Truckloads truck;
     
     int n, l;

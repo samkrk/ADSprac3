@@ -2,7 +2,7 @@
 #include <string>
 #include "Reverser.h"
 
-int main(void){
+int test(void){
     /* Reverser reverse;
     int value;
     std::cout<< "Enter value: ";
